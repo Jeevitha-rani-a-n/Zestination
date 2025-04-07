@@ -6,7 +6,7 @@ const destinations = [
   },
   {
     name: "Tokyo, Japan",
-    image: "images/tokyo.jpg", // Make sure this file exists in /images
+    image: "tokyo.jpg", // Make sure this file exists in /images
     description: "Blend of tradition and futuristic life."
   },
   {
@@ -16,12 +16,12 @@ const destinations = [
   },
   {
     name: "New York, USA",
-    image: "images/newyork.jpg",
+    image: "newyork.jpg",
     description: "Skyscrapers, Broadway and bagels."
   },
   {
     name: "Rome, Italy",
-    image: "images/rome.jpg",
+    image: "rome.jpg",
     description: "Colosseum, pasta, and ancient wonders."
   },
   {
@@ -31,12 +31,12 @@ const destinations = [
   },
   {
     name: "Istanbul, Turkey",
-    image: "images/istanbul.jpg",
+    image: "istanbul.jpg",
     description: "Where East meets West."
   },
   {
     name: "Reykjavik, Iceland",
-    image: "images/reykjavik.jpg",
+    image: "reykjavik.jpg",
     description: "Northern lights & geothermal spas."
   }
 ];
