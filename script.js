@@ -6,7 +6,7 @@ const destinations = [
   },
   {
     name: "Tokyo, Japan",
-    image: "C:\Users\Admin\OneDrive\Desktop\WDPD\images\tokyo.jpg",
+    image: "images/tokyo.jpg", // Make sure this file exists in /images
     description: "Blend of tradition and futuristic life."
   },
   {
@@ -16,12 +16,12 @@ const destinations = [
   },
   {
     name: "New York, USA",
-    image: "C:\Users\Admin\OneDrive\Desktop\WDPD\images\newyork.jpg",
+    image: "images/newyork.jpg",
     description: "Skyscrapers, Broadway and bagels."
   },
   {
     name: "Rome, Italy",
-    image: "C:\Users\Admin\OneDrive\Desktop\WDPD\images\rome.jpg",
+    image: "images/rome.jpg",
     description: "Colosseum, pasta, and ancient wonders."
   },
   {
@@ -31,39 +31,36 @@ const destinations = [
   },
   {
     name: "Istanbul, Turkey",
-    image: "C:\Users\Admin\OneDrive\Desktop\WDPD\images\istanbul.jpg",
+    image: "images/istanbul.jpg",
     description: "Where East meets West."
   },
   {
     name: "Reykjavik, Iceland",
-    image: "C:\Users\Admin\OneDrive\Desktop\WDPD\images\reykjavik.jpg",
+    image: "images/reykjavik.jpg",
     description: "Northern lights & geothermal spas."
-  },
-  {
-    name: "Barcelona, Spain",
-    image: "https://images.unsplash.com/photo-1549649639-8f4c72d8d8a5?auto=format&fit=crop&w=800&q=80",
-    description: "Gaudí architecture & beach life."
   }
 ];
-  
-  const cardGrid = document.getElementById("cardGrid");
-  
-  destinations.forEach((place) => {
-    const card = document.createElement("div");
-    card.className = "card";
-  
-    card.innerHTML = `
-      <img src="${place.image}" alt="${place.name}">
-      <div class="card-content">
-        <h2>${place.name}</h2>
-        <p>${place.description}</p>
-        <button class="book-btn">Book Now</button>
-      </div>
-    `;
-  
-    cardGrid.appendChild(card);
-  });
-  
+
+const cardGrid = document.getElementById("cardGrid");
+
+destinations.forEach((place) => {
+  const card = document.createElement("div");
+  card.className = "card";
+
+  card.innerHTML = `
+    <img src="${place.image}" alt="${place.name}">
+    <div class="card-content">
+      <h2>${place.name}</h2>
+      <p>${place.description}</p>
+      <button class="book-btn">Book Now</button>
+    </div>
+  `;
+
+  cardGrid.appendChild(card);
+});
+
+
+
 
   
   
