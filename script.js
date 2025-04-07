@@ -1,7 +1,7 @@
 const destinations = [
   {
     name: "Paris, France",
-    image: "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=80",
+    image: "paris.jpg",
     description: "City of lights, romance, and cafés."
   },
   {
@@ -11,7 +11,7 @@ const destinations = [
   },
   {
     name: "Cape Town, South Africa",
-    image: "https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&w=800&q=80",
+    image: "capetown.jpg",
     description: "Mountains, beaches and safaris."
   },
   {
@@ -26,7 +26,7 @@ const destinations = [
   },
   {
     name: "Sydney, Australia",
-    image: "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=800&q=80",
+    image: "sydney.jpg",
     description: "Opera House and ocean vibes."
   },
   {
