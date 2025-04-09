@@ -2,42 +2,42 @@
 const destinations = [
   {
     name: "Paris, France",
-    image: "images/paris.jpg",
+    image: "paris.jpg",
     description: "City of lights, romance, and cafés."
   },
   {
     name: "Tokyo, Japan",
-    image: "images/tokyo.jpg",
+    image: "tokyo.jpg",
     description: "Blend of tradition and futuristic life."
   },
   {
     name: "Cape Town, South Africa",
-    image: "images/capetown.jpg",
+    image: "capetown.jpg",
     description: "Mountains, beaches and safaris."
   },
   {
     name: "New York, USA",
-    image: "images/newyork.jpg",
+    image: "newyork.jpg",
     description: "Skyscrapers, Broadway and bagels."
   },
   {
     name: "Rome, Italy",
-    image: "images/rome.jpg",
+    image: "rome.jpg",
     description: "Colosseum, pasta, and ancient wonders."
   },
   {
     name: "Sydney, Australia",
-    image: "images/sydney.jpg",
+    image: "sydney.jpg",
     description: "Opera House and ocean vibes."
   },
   {
     name: "Istanbul, Turkey",
-    image: "images/istanbul.jpg",
+    image: "istanbul.jpg",
     description: "Where East meets West."
   },
   {
     name: "Reykjavik, Iceland",
-    image: "images/reykjavik.jpg",
+    image: "reykjavik.jpg",
     description: "Northern lights & geothermal spas."
   }
 ];
