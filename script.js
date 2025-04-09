@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (window.location.pathname.includes("travel.html")) {
     if (!sessionStorage.getItem("loggedIn")) {
-      window.location.href = "login.html";
+      window.location.href = "index.html";
     }
   }
 });
